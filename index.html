@@ -8,39 +8,42 @@
     <title>Panda Commerce</title>
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- Starting Header -->
 
     <header>
-        <nav class=" container navbar navbar-expand-lg navbar-light" style="background-color: #e5e8eb;">
-            <div class="container">
-                <a class="navbar-brand" href="#"><img src="/images/logo.png" alt="" width="160" height=""
-                        class="d-inline-block align-text-top"> </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <section class="container">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e5e8eb;">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="/images/logo.png" alt="" width="160" height=""
+                            class="d-inline-block align-text-top"> </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Shoe</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Backpack</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Subscribe</a>
-                        </li>
-                    </ul>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Shoe</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Backpack</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Subscribe</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
+        </section>
         </nav>
 
         <!-- Image Slider -->
@@ -106,9 +109,162 @@
         </div>
     </header>
 
+    <main>
+        <!-- Categories -->
+        <div class="overflow-hidden my-5">
+            <div class="row gy-5">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="p-3 broder bg-warning d-flex align-items-center justify-content-between rounded-3">
+                        <h1 class="text-white">Watch</h1>
+                        <img src="images/categories/watch.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="p-3 broder bg-warning d-flex align-items-center justify-content-between rounded-3">
+                        <h1 class="text-white">Bag</h1>
+                        <img src="images/categories/bag.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="p-3 broder bg-warning d-flex align-items-center justify-content-between rounded-3">
+                        <h1 class="text-white">Shoe</h1>
+                        <img src="images/categories/shoes.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <!-- Bootsrap JS -->
-    <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Shoe Section -->
+        <section class="container">
+            <h1>Shoes</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-md-4 ">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Supply 350</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional.
+                            </p>
+                            <br><br><br>
+                            <h5>$120</h5>
+                            <button class="btn btn-danger">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike 360
+                            </h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.
+                            </p>
+                            <br><br><br>
+                            <h5>$320</h5>
+                            <button class="btn btn-danger">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Airmax</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional.
+                            </p>
+                            <br><br><br>
+                            <h5>$350</h5>
+                            <button class="btn btn-danger">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- BackpackSection -->
+        <section class="container mt-5">
+            <h1>Backpack</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-md-4 ">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Laltu Bag</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional.
+                            </p>
+                            <br><br><br>
+                            <h5>$120</h5>
+                            <button class="btn btn-danger">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Blue Niltu Bag</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.
+                            </p>
+                            <br><br><br>
+                            <h5>$320</h5>
+                            <button class="btn btn-danger">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-lg">
+                        <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Black Kaltu Bag</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional.
+                            </p>
+                            <br><br><br>
+                            <h5>$350</h5>
+                            <button class="btn btn-danger">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Subscribe Section -->
+        <section style="height:300px;"
+            class=" bg-primary container d-flex justify-content-center align-items-center rounded-3 mt-5 ">
+            <div class="text-white">
+                <h1>Stay in Touch</h1>
+                <h5>Get updates on sales, specials and more</h5>
+                <input type="email" name="" id="" placeholder="Enter YOur Email">
+                <br>
+                <button class="btn btn-warning">Submit</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="mt-5">
+        <p class="text-center">©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.
+        </p>
+
+        <!-- Bootsrap JS -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </footer>
 </body>
 
 </html>
